@@ -5,13 +5,13 @@ import Navbar from '../Components/Navbar';
 
 const Home = () => {
     return (
-        <div >
+        <div className='w-full'>
             <Navbar/>
            <Banner/>
-           <div className='z-10 fixed top-1/2 left-1/2 '>
-           <button className='cursor-pointer text-3xl text-white  border-solid border-2 border-white-600 p-5 hover:bg-white hover:text-black'>
-            <Link to="/search">KNOW MORE </Link>
-            </button>
+           <div className='z-10 fixed flex right-1/4 top-1/2'>
+     
+            <Link to="/search" className='cursor-pointer mr-3 text-3xl text-white  border-solid border-2 border-white-600 p-5 hover:bg-white hover:text-black'> LEARN MORE </Link>
+            <p>Learn more about spaceX capsules here. <br/> We are using the www.spacex.com API to fetch relevant data </p>
            </div>
          
         </div>
