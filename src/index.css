@@ -9,3 +9,12 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  body {
+    margin: 0;
+    background-image: linear-gradient(to bottom right, grey, rgb(48, 48, 70));     
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+  }
